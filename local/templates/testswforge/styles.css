@@ -1,0 +1,14 @@
+.squad_wraper {
+    display: flex;
+    padding: 28px 0;
+    justify-content: center;
+}
+.squad_wraper .squad {
+    width: 100px;
+    height: 100px;
+    margin: 0 6px;
+}
+.squad_wraper .squad.red{background-color: red;}
+.squad_wraper .squad.yellow{background-color: yellow;}
+.squad_wraper .squad.green{background-color: green;}
+.squad_wraper.black .squad{background-color: black;}
